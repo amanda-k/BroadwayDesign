@@ -4,8 +4,9 @@ html{text-align: center;
 h1{font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
-  color: white;
-  background-image: url("images/the-flatiron-building.png");}
+  color: white;}
+
+.header{background-image: url("images/the-flatiron-building.png");}
 
 h2{font-family: Helvetica;
   font-size: 32px;
@@ -24,8 +25,14 @@ p{font-family: Helvetica;
          color: white;
          background-image: url("images/the-flatiron-building.png");}
 
-h5{font-family: Helvetica;
+.footer{font-family: Helvetica;
   font-size: 11px;
   color: white;
   background-color: dimgray;
   text-align: left;}
+
+.links{font-family: Helvetica;
+            font-size: 18px;
+            color: white;}
+
+a:visited{color: white;}
